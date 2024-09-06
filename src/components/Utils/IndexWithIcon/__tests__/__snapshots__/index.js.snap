@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index with Icon should have passed prpos 1`] = `
+<div
+  className="index-with-icon-container"
+>
+  <div
+    className="index-icon-container"
+  >
+    <img
+      alt="index-icon"
+      src="url"
+      style={
+        Object {
+          "width": 30,
+        }
+      }
+    />
+  </div>
+  <Row
+    className="align-items-center no-gutters"
+    noGutters={false}
+  >
+    <span
+      className="prefix align-self-end"
+    >
+      $
+    </span>
+    <h3>
+      text
+    </h3>
+    <span
+      className="postfix align-self-end"
+    >
+      %
+    </span>
+  </Row>
+  <div
+    className="subtitle"
+  >
+    subtitle
+  </div>
+</div>
+`;

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action Details component People Search 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ActionDetails>
+    <SlideIn
+      className="dashboard-action-expandable"
+      in={true}
+    >
+      <Animate
+        animation="fadeRight"
+        className="dashboard-action-expandable"
+        enter={true}
+        onAnimationEnd={null}
+        options={
+          Object {
+            "duration": 500,
+          }
+        }
+        unMountOnExit={true}
+      >
+        <div
+          className="dashboard-action-expandable"
+          onAnimationEnd={[Function]}
+          style={
+            Object {
+              "animationDelay": "undefinedms",
+              "animationDirection": undefined,
+              "animationDuration": "500ms",
+              "animationFillMode": undefined,
+              "animationIterationCount": undefined,
+              "animationName": "fadeRightIn",
+              "animationPlayState": undefined,
+              "animationTimingFunction": undefined,
+            }
+          }
+        >
+          <div
+            className="action-details-container"
+          >
+            <Memo(ExpandableIcon)
+              active={true}
+              inverted={true}
+              onClick={[Function]}
+            >
+              <Animate
+                animation="fade"
+                enter={true}
+                onAnimationEnd={null}
+                options={
+                  Object {
+                    "duration": 500,
+                  }
+                }
+                unMountOnExit={true}
+              >
+                <div
+                  onAnimationEnd={[Function]}
+                  style={
+                    Object {
+                      "animationDelay": "undefinedms",
+                      "animationDirection": undefined,
+                      "animationDuration": "500ms",
+                      "animationFillMode": undefined,
+                      "animationIterationCount": undefined,
+                      "animationName": "fadeIn",
+                      "animationPlayState": undefined,
+                      "animationTimingFunction": undefined,
+                    }
+                  }
+                >
+                  <Icon
+                    className="expandable-icon clickable"
+                    height="50"
+                    name="ExpandableInverted"
+                    onClick={[Function]}
+                    width="25"
+                  >
+                    <ForwardRef(SvgExpandableInvertedIcon)
+                      className="expandable-icon clickable"
+                      height="50"
+                      onClick={[Function]}
+                      width="25"
+                    >
+                      <svg
+                        className="expandable-icon clickable"
+                        height="50"
+                        onClick={[Function]}
+                        width="25"
+                      >
+                        expandable-inverted-icon.svg
+                      </svg>
+                    </ForwardRef(SvgExpandableInvertedIcon)>
+                  </Icon>
+                </div>
+              </Animate>
+            </Memo(ExpandableIcon)>
+          </div>
+        </div>
+      </Animate>
+    </SlideIn>
+  </ActionDetails>
+</Provider>
+`;

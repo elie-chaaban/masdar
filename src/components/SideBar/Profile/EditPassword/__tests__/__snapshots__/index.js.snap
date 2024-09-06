@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Password Component should match snapshot 1`] = `
+<EditPassword
+  click={[MockFunction]}
+>
+  <Formik
+    initialValues={
+      Object {
+        "password": "",
+        "passwordConfirmation": "",
+      }
+    }
+    onSubmit={[Function]}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [
+          "passwordConfirmation",
+          "password",
+        ],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {
+          "password": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "passwordConfirmation": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {
+                null,
+              },
+              "refs": Map {
+                "password" => Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "password",
+                  "map": undefined,
+                  "path": "password",
+                },
+              },
+            },
+            "_whitelistError": [Function],
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className="password-form row"
+    >
+      <form
+        action="#"
+        className="password-form row"
+        onReset={[Function]}
+        onSubmit={[Function]}
+      >
+        <div
+          className="mt-4 col-6"
+        >
+          <p>
+            Password
+          </p>
+          <Field
+            className="form-control"
+            name="password"
+            onChange={[Function]}
+            placeholder="password"
+            type="password"
+          >
+            <input
+              className="form-control"
+              name="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="password"
+              type="password"
+              value=""
+            />
+          </Field>
+        </div>
+        <div
+          className=" mt-4  col-6 d-flex flex-column justify-content-center"
+        >
+          <div
+            className="password-strength"
+          >
+            <p>
+              Password strength
+            </p>
+            <div
+              className="bar "
+              data-testid="indicator-bar"
+            />
+          </div>
+        </div>
+        <div
+          className="mt-4 col-6"
+        >
+          <p>
+            Confirm Password
+          </p>
+          <Field
+            className="form-control"
+            name="passwordConfirmation"
+            placeholder="password Confirmation"
+            type="password"
+          >
+            <input
+              className="form-control"
+              name="passwordConfirmation"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="password Confirmation"
+              type="password"
+              value=""
+            />
+          </Field>
+        </div>
+        <Col
+          xs={12}
+        >
+          <div
+            className="col-12"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col
+                  xs={6}
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <button
+                      className="btn mt-3"
+                      type="submit"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </form>
+    </Form>
+  </Formik>
+</EditPassword>
+`;

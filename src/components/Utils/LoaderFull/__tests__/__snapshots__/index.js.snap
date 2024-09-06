@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Full Page Loader should have default props as white 1`] = `
+<div
+  className="loader-container"
+>
+  <div
+    className="text-center"
+  >
+    <div
+      className="lds-ellipsis"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      />
+    </div>
+    <p>
+      Loading...
+    </p>
+  </div>
+</div>
+`;

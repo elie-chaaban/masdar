@@ -1,0 +1,13 @@
+.legend {
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+  .color-indicator {
+    width: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 10px;
+    display: inline-block;
+  }
+}

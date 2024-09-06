@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page with expire 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Login>
+    <Suspense
+      fallback={<LoaderFull />}
+    >
+      <Formik
+        initialValues={
+          Object {
+            "password": "",
+            "userName": "",
+          }
+        }
+        onSubmit={[Function]}
+      >
+        <Form
+          className=" login-form shadow-lg "
+        >
+          <form
+            action="#"
+            className=" login-form shadow-lg "
+            onReset={[Function]}
+            onSubmit={[Function]}
+          >
+            <img
+              alt="logo"
+              className="img-fluid d-block mx-auto logo"
+              src="logo.png"
+            />
+            <button
+              className="btn login-btn px-5 text-white d-block mx-auto"
+              disabled={false}
+              name="Login"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+        </Form>
+      </Formik>
+    </Suspense>
+  </Login>
+</Provider>
+`;

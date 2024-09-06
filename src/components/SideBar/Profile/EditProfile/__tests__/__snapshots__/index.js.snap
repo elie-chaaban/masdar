@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Profile Component should match snapshot 1`] = `
+<Memo(EditProfile)
+  countries={
+    Array [
+      Object {
+        "cities": Array [
+          Object {
+            "id": "cityId1",
+            "name": "Beirut",
+          },
+        ],
+        "code": "961",
+        "id": "countryId1",
+        "name": "Lebanon",
+      },
+      Object {
+        "cities": Array [
+          Object {
+            "id": "cityId2",
+            "name": "Dubai",
+          },
+        ],
+        "code": "971",
+        "id": "countryId2",
+        "name": "United Arab Emirates",
+      },
+    ]
+  }
+  profile={
+    Object {
+      "address1": "edde",
+      "address2": "",
+      "city": Object {
+        "country": Object {
+          "cities": Array [
+            Object {
+              "id": "cityId1",
+              "name": "Beirut",
+            },
+          ],
+          "code": "961",
+          "id": "countryId1",
+        },
+        "id": "cityId1",
+        "name": "Dubai",
+      },
+      "email": "adel@gmail.com",
+      "firstName": "adel96",
+      "gender": "male",
+      "mobileNumber": 9352,
+      "mobileNumberCountryCode": "961",
+    }
+  }
+>
+  <Formik
+    initialValues={
+      Object {
+        "address1": "edde",
+        "address2": "",
+        "city": "cityId1",
+        "country": "countryId1",
+        "email": "adel@gmail.com",
+        "phone": 9352,
+        "phoneCode": "961",
+        "userName": "adel96",
+      }
+    }
+    onSubmit={[Function]}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [
+          "address2",
+          "address1",
+          "city",
+          "country",
+          "phoneCode",
+          "phone",
+        ],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {
+          "address1": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "address2": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_default": "",
+            "_deps": Array [],
+            "_exclusive": Object {},
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "city": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "country": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "phone": NumberSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "number",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "number",
+          },
+          "phoneCode": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className="content row"
+    >
+      <form
+        action="#"
+        className="content row"
+        onReset={[Function]}
+        onSubmit={[Function]}
+      >
+        <CustomInput
+          enabled={false}
+          name="userName"
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              userName
+            </p>
+            <Field
+              className="form-control "
+              disabled={true}
+              name="userName"
+              placeholder="userName"
+              type="text"
+            >
+              <input
+                className="form-control "
+                disabled={true}
+                name="userName"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="userName"
+                type="text"
+                value="adel96"
+              />
+            </Field>
+          </div>
+        </CustomInput>
+        <CustomInput
+          enabled={false}
+          name="email"
+          type="email"
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              email
+            </p>
+            <Field
+              className="form-control "
+              disabled={true}
+              name="email"
+              placeholder="email"
+              type="email"
+            >
+              <input
+                className="form-control "
+                disabled={true}
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="email"
+                type="email"
+                value="adel@gmail.com"
+              />
+            </Field>
+          </div>
+        </CustomInput>
+        <div
+          className="mt-2 col-12"
+        >
+          <p>
+            Phone
+          </p>
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="row"
+          >
+            <CountryCodeSelect
+              enabled={false}
+              name="phoneCode"
+            >
+              <div
+                className=" col-3 pr-1"
+              >
+                <Field
+                  name="phoneCode"
+                >
+                  <select
+                    className="select-country "
+                    disabled={true}
+                    name="phoneCode"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    value="961"
+                  >
+                    <option
+                      value=""
+                    >
+                      code
+                    </option>
+                    <option
+                      key="961"
+                      value="961"
+                    >
+                      961
+                    </option>
+                    <option
+                      key="971"
+                      value="971"
+                    >
+                      971
+                    </option>
+                  </select>
+                </Field>
+              </div>
+            </CountryCodeSelect>
+            <div
+              className="col-9 pl-1"
+            >
+              <Field
+                className="form-control "
+                disabled={true}
+                name="phone"
+                placeholder="phone number"
+                type="number"
+              >
+                <input
+                  className="form-control "
+                  disabled={true}
+                  name="phone"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="phone number"
+                  type="number"
+                  value={9352}
+                />
+              </Field>
+            </div>
+            <div
+              className="col-12"
+            />
+          </div>
+        </div>
+        <div
+          className="col-6"
+        />
+        <CountrySelect
+          countries={
+            Array [
+              Object {
+                "cities": Array [
+                  Object {
+                    "id": "cityId1",
+                    "name": "Beirut",
+                  },
+                ],
+                "code": "961",
+                "id": "countryId1",
+                "name": "Lebanon",
+              },
+              Object {
+                "cities": Array [
+                  Object {
+                    "id": "cityId2",
+                    "name": "Dubai",
+                  },
+                ],
+                "code": "971",
+                "id": "countryId2",
+                "name": "United Arab Emirates",
+              },
+            ]
+          }
+          enabled={false}
+          name="country"
+          onChange={[Function]}
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              Country
+            </p>
+            <Field
+              name="country"
+            >
+              <select
+                className="select-country "
+                disabled={true}
+                name="country"
+                onBlur={[Function]}
+                onChange={[Function]}
+                value="countryId1"
+              >
+                <option
+                  value=""
+                >
+                  select country
+                </option>
+                <option
+                  key="countryId1"
+                  value="countryId1"
+                >
+                  Lebanon
+                </option>
+                <option
+                  key="countryId2"
+                  value="countryId2"
+                >
+                  United Arab Emirates
+                </option>
+              </select>
+            </Field>
+          </div>
+        </CountrySelect>
+        <CitySelect
+          cities={Array []}
+          enabled={false}
+          name="city"
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              City
+            </p>
+            <Field
+              name="city"
+            >
+              <select
+                className="select-city "
+                disabled={true}
+                name="city"
+                onBlur={[Function]}
+                onChange={[Function]}
+                value="cityId1"
+              >
+                <option
+                  value=""
+                >
+                  select city
+                </option>
+              </select>
+            </Field>
+          </div>
+        </CitySelect>
+        <CustomInput
+          enabled={false}
+          name="address1"
+          title="address 1"
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              address 1
+            </p>
+            <Field
+              className="form-control "
+              disabled={true}
+              name="address1"
+              placeholder="address 1"
+              type="text"
+            >
+              <input
+                className="form-control "
+                disabled={true}
+                name="address1"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="address 1"
+                type="text"
+                value="edde"
+              />
+            </Field>
+          </div>
+        </CustomInput>
+        <CustomInput
+          enabled={false}
+          name="address2"
+          title="address 2"
+        >
+          <div
+            className="mt-2 col-6"
+          >
+            <p>
+              address 2
+            </p>
+            <Field
+              className="form-control "
+              disabled={true}
+              name="address2"
+              placeholder="address 2"
+              type="text"
+            >
+              <input
+                className="form-control "
+                disabled={true}
+                name="address2"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="address 2"
+                type="text"
+                value=""
+              />
+            </Field>
+          </div>
+        </CustomInput>
+        <div
+          className="col-12 mt-3"
+        >
+          <button
+            className="btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Edit
+          </button>
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</Memo(EditProfile)>
+`;

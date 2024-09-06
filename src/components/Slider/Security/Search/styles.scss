@@ -1,0 +1,325 @@
+@import '../../../../assets/styles/globals';
+@import '../../../../assets/styles/fonts';
+
+.tab-title-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  font-family: $secondary-font;
+  justify-content: center;
+  align-items: center;
+
+  .tab-title-icon {
+    width: 40px;
+  }
+  .tab-title-text {
+    font-size: 14pt;
+    color: #9b9a9a;
+    margin-left: 10px;
+  }
+  .tab-title-text.selected {
+    color: white;
+  }
+}
+
+.search-container {
+  font-family: $secondary-font;
+  .search-header {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #202020;
+
+    .icon {
+      width: 60px;
+    }
+    .title {
+      padding-top: 10px;
+      margin-left: 16px;
+      color: white;
+      font-size: 26pt;
+    }
+  }
+  .search-sections {
+    .nav-link {
+      width: 25%;
+      border-left: 1px solid #3d3d3d;
+      border-right: 1px solid #3d3d3d;
+      background-color: #363535;
+    }
+    .nav-link.active {
+      width: 25%;
+      border: none;
+      background-color: #3d3d3d;
+    }
+  }
+}
+
+.tab-content-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  overflow: scroll;
+  height: 900px;
+
+  .search-text {
+    background-image: url('../../../../assets/images/icons/search.svg');
+    background-position: 95%;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+  }
+
+  .dropdown-container {
+    padding: 3px;
+    background-color: #313131;
+  }
+
+  .ViewDropdown {
+    font-size: 1rem !important;
+    padding: 5px;
+    display: flex;
+    background-color: #313131;
+    border: none;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .DropdownMenu {
+    font-size: 1rem !important;
+    margin-top: 8px;
+
+    background-color: #313131;
+    border: none;
+    .Dropdown-option {
+      color: white;
+      &:hover,
+      &.is-selected {
+        background-color: #496cad;
+      }
+    }
+  }
+  .upload-image-btn {
+    background-color: #8563b777;
+    color: white;
+    font-size: 14pt;
+    border-color: transparent;
+    border: none;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+
+    input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .upload-image-icon {
+    width: 20px;
+  }
+
+  .date-range-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .selected-date-range-label {
+      color: black;
+      font-size: 11pt;
+      margin-right: 10px;
+    }
+    .calendar-icon {
+      width: 25px;
+    }
+  }
+
+  .filter-row {
+    margin-top: 20px;
+  }
+  .filter-icon {
+    width: 50px;
+  }
+  .filter-dropdown-btn {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 3px;
+  }
+  .filter-dropdown-menu {
+    background-color: #313131;
+    color: white;
+  }
+  .selected-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #8563b777;
+    height: 45px;
+    margin-right: 10px;
+    cursor: default;
+
+    .selected-filter-text {
+      font-size: 14pt;
+      color: white;
+      margin-right: 10px;
+    }
+    .remove-selected-filter-icon {
+      cursor: pointer;
+      width: 15px;
+    }
+  }
+
+  .search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 3px;
+    cursor: pointer;
+
+    .search-button-icon {
+      // flex: 1;
+      width: 20px;
+    }
+  }
+
+  .color-picker-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+
+    .color-picker-text {
+      font-size: 16pt;
+      color: white;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .color-picker-color {
+      width: 50px;
+      height: 30px;
+      margin-right: 15px;
+    }
+    .color-picker {
+    }
+  }
+
+  .results {
+    padding: 16px;
+    .result-row {
+      .hide {
+        display: none;
+      }
+
+      .event-view {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .event-header {
+          flex: 1;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .close-event-icon {
+            width: 25px;
+            cursor: pointer;
+          }
+          .event-name {
+            font-size: 14pt;
+            color: white;
+          }
+        }
+
+        .event-image-wrapper {
+          flex: 3;
+          margin-top: 20px;
+          .event-image {
+            width: 100%;
+          }
+        }
+        .event-video-wrapper {
+          flex: 3;
+          margin-top: 20px;
+        }
+      }
+      .event-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .event-container .event-product {
+        flex: 1 0 33%;
+        height: 50px;
+        padding: 20px;
+      }
+      .search-card {
+        .row {
+          background-color: #222;
+          height: 185px;
+          margin-bottom: 5px;
+        }
+        .search-card-left {
+          padding: 0;
+
+          .search-card-image {
+            width: 100%;
+          }
+        }
+        .search-card-right {
+          padding: 10px;
+          color: white;
+
+          .search-card-title {
+            font-size: 14pt;
+          }
+          .search-card-separator {
+            height: 1px;
+            background-color: #3d3d3d;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          .search-card-subtitle {
+            font-size: 12pt;
+          }
+          .search-card-footer {
+            height: 100%;
+          }
+          .search-card-title:hover {
+            color: #b1c7ea;
+          }
+          .search-card-subtitle:hover {
+            color: #b1c7ea;
+          }
+        }
+      }
+
+      .search-result-row {
+        color: white;
+        font-size: 12pt;
+        background-color: #222;
+        cursor: pointer;
+        .field-col-value:hover {
+          color: #b1c7ea;
+        }
+      }
+    }
+  }
+}

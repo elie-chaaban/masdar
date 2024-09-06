@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Active Profile Component 1`] = `
+<Animate
+  animation="fade"
+  className="profile"
+  enter={true}
+  onAnimationEnd={null}
+  options={
+    Object {
+      "duration": 500,
+    }
+  }
+  unMountOnExit={true}
+>
+  <div
+    className="header py-2 px-4 d-flex justify-content-between"
+  >
+    <h5>
+      Profile
+    </h5>
+    <button
+      className="btn back"
+      onClick={[MockFunction]}
+    >
+      <i
+        className="arrow"
+      />
+      <i
+        className="arrow mr-2"
+      />
+    </button>
+  </div>
+  <div
+    className="h-75 d-flex align-items-center justify-content-center"
+  >
+    <Loader
+      color="white"
+    >
+      <p>
+        Loading...
+      </p>
+    </Loader>
+  </div>
+</Animate>
+`;

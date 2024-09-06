@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expandable icon component work flow 1`] = `
+<Animate
+  animation="fade"
+  enter={false}
+  onAnimationEnd={null}
+  options={
+    Object {
+      "duration": 500,
+    }
+  }
+  unMountOnExit={true}
+>
+  <Icon
+    className="expandable-icon clickable"
+    height="50"
+    name="Expandable"
+    onClick={[MockFunction]}
+    width="25"
+  />
+</Animate>
+`;

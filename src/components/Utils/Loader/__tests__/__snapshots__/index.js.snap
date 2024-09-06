@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader sould have default props 1`] = `
+<Loader>
+  <Row
+    className="justify-content-md-center align-items-center"
+    noGutters={false}
+    style={
+      Object {
+        "color": "#fff",
+        "height": "100%",
+        "margin": 20,
+        "minHeight": "100%",
+      }
+    }
+  >
+    <div
+      className="justify-content-md-center align-items-center row"
+      style={
+        Object {
+          "color": "#fff",
+          "height": "100%",
+          "margin": 20,
+          "minHeight": "100%",
+        }
+      }
+    >
+      <Animate
+        animation="fade"
+        className="text-center"
+        enter={true}
+        onAnimationEnd={null}
+        options={
+          Object {
+            "duration": 500,
+          }
+        }
+        unMountOnExit={false}
+      >
+        <div
+          className="text-center"
+          onAnimationEnd={[Function]}
+          style={
+            Object {
+              "animationDelay": "undefinedms",
+              "animationDirection": undefined,
+              "animationDuration": "500ms",
+              "animationFillMode": undefined,
+              "animationIterationCount": undefined,
+              "animationName": "fadeIn",
+              "animationPlayState": undefined,
+              "animationTimingFunction": undefined,
+            }
+          }
+        >
+          <div
+            className="lds-ellipsis"
+          >
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                }
+              }
+            />
+          </div>
+          <p>
+            loading...
+          </p>
+        </div>
+      </Animate>
+    </div>
+  </Row>
+</Loader>
+`;

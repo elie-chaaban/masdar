@@ -1,0 +1,72 @@
+input.form-control {
+  background: white !important;
+}
+
+.rectangular-container {
+  display: flex;
+  gap: 10px; /* Add spacing between columns */
+  background-color: #434343;
+}
+
+.column {
+  // border: 1px solid #000; /* Add a border to each column */
+  // padding: 10px; /* Add spacing between floors */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally in each column */
+}
+
+.column-label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Spacing between the label and the floors */
+  color: #fff;
+}
+
+.floors-labels {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 30px;
+}
+
+.floor {
+  margin-top: 10px; /* Add spacing between floors */
+  display: flex;
+  flex-wrap: wrap; /* Allow squares to wrap to the next row */
+}
+
+.floor-label {
+  font-weight: bold;
+  margin-right: 5px; /* Spacing between the label and the squares */
+  width: 39px; /* Adjust the width to your preference */
+  height: 36px;
+  text-align: center; /* Center the label horizontally */
+
+  color: #fff;
+
+  border: 2px solid #434343;
+  background: #313131;
+}
+
+.square-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow squares to wrap to the next row */
+  border: 5px solid #585858;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 90px;
+  max-width: 90px;
+  min-height: 80px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff; /* Add a border to each square */
+  background-color: #27ae60; /* Set your desired square color */
+}
+
+.sqhov:hover {
+  cursor: pointer;
+}

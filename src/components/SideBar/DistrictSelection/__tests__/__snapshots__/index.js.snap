@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`District selection Open 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DistrictSelect
+    active={true}
+    click={[MockFunction]}
+  >
+    <Animate
+      animation="fade"
+      className="district-selection"
+      enter={true}
+      onAnimationEnd={null}
+      options={
+        Object {
+          "duration": 500,
+        }
+      }
+      unMountOnExit={true}
+    >
+      <div
+        className="district-selection"
+        onAnimationEnd={[Function]}
+        style={
+          Object {
+            "animationDelay": "undefinedms",
+            "animationDirection": undefined,
+            "animationDuration": "500ms",
+            "animationFillMode": undefined,
+            "animationIterationCount": undefined,
+            "animationName": "fadeIn",
+            "animationPlayState": undefined,
+            "animationTimingFunction": undefined,
+          }
+        }
+      >
+        <h5
+          className="title"
+        >
+          Select District
+        </h5>
+        <Loader>
+          <Row
+            className="justify-content-md-center align-items-center"
+            noGutters={false}
+            style={
+              Object {
+                "color": "#fff",
+                "height": "100%",
+                "margin": 20,
+                "minHeight": "100%",
+              }
+            }
+          >
+            <div
+              className="justify-content-md-center align-items-center row"
+              style={
+                Object {
+                  "color": "#fff",
+                  "height": "100%",
+                  "margin": 20,
+                  "minHeight": "100%",
+                }
+              }
+            >
+              <Animate
+                animation="fade"
+                className="text-center"
+                enter={true}
+                onAnimationEnd={null}
+                options={
+                  Object {
+                    "duration": 500,
+                  }
+                }
+                unMountOnExit={false}
+              >
+                <div
+                  className="text-center"
+                  onAnimationEnd={[Function]}
+                  style={
+                    Object {
+                      "animationDelay": "undefinedms",
+                      "animationDirection": undefined,
+                      "animationDuration": "500ms",
+                      "animationFillMode": undefined,
+                      "animationIterationCount": undefined,
+                      "animationName": "fadeIn",
+                      "animationPlayState": undefined,
+                      "animationTimingFunction": undefined,
+                    }
+                  }
+                >
+                  <div
+                    className="lds-ellipsis"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#fff",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#fff",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#fff",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#fff",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </Animate>
+            </div>
+          </Row>
+        </Loader>
+      </div>
+    </Animate>
+  </DistrictSelect>
+</Provider>
+`;
+
+exports[`District selection Open 2`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DistrictSelect
+    active={true}
+    click={[MockFunction]}
+  >
+    <Animate
+      animation="fade"
+      className="district-selection"
+      enter={true}
+      onAnimationEnd={null}
+      options={
+        Object {
+          "duration": 500,
+        }
+      }
+      unMountOnExit={true}
+    >
+      <div
+        className="district-selection"
+        onAnimationEnd={[Function]}
+        style={
+          Object {
+            "animationDelay": "undefinedms",
+            "animationDirection": undefined,
+            "animationDuration": "500ms",
+            "animationFillMode": undefined,
+            "animationIterationCount": undefined,
+            "animationName": "fadeIn",
+            "animationPlayState": undefined,
+            "animationTimingFunction": undefined,
+          }
+        }
+      >
+        <h5
+          className="title"
+        >
+          Select District
+        </h5>
+        <div
+          className="district-card-container"
+        >
+          <Memo(DistrictInfo)
+            active={true}
+            district={
+              Object {
+                "image": "url",
+                "indexes": Object {
+                  "energy": 23,
+                  "facilities": 23,
+                  "mobility": 74,
+                  "security": 62,
+                },
+                "info": Object {
+                  "info": Object {
+                    "extrusion": Array [
+                      "59",
+                      "88",
+                      "79",
+                      "78",
+                      "80",
+                      "32",
+                      "8",
+                      "2",
+                      "4",
+                      "22",
+                      "3",
+                      "5",
+                      "60",
+                    ],
+                    "id": "1",
+                    "latitude": 53.54310552517575,
+                    "location": "Edmonton, Canada",
+                    "longitude": -113.49581660415623,
+                    "name": "Telus HQ",
+                    "zoom": 15.721944548645808,
+                  },
+                },
+              }
+            }
+            key="1"
+            onClick={[Function]}
+          >
+            <div
+              className="district-card m-4"
+              onClick={[Function]}
+            >
+              <div
+                className="row px-4"
+              >
+                <div
+                  className="col-7 p-0"
+                >
+                  <div
+                    className="active"
+                  >
+                    <img
+                      alt="district"
+                      className="img-fluid"
+                      src="url"
+                    />
+                  </div>
+                  <div
+                    className="desc"
+                  >
+                    <h5>
+                      Telus HQ
+                    </h5>
+                    <p>
+                      Edmonton, Canada
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-5 p-0 pl-1 d-flex justify-content-between  flex-column"
+                >
+                  <div
+                    className="insights-info"
+                  >
+                    <p>
+                      <span>
+                        23
+                      </span>
+                       
+                      <small>
+                        Energy
+                      </small>
+                    </p>
+                  </div>
+                  <div
+                    className="insights-info"
+                  >
+                    <p>
+                      <span>
+                        23
+                      </span>
+                       
+                      <small>
+                        Economy
+                      </small>
+                    </p>
+                  </div>
+                  <div
+                    className="insights-info"
+                  >
+                    <p>
+                      <span>
+                        62
+                      </span>
+                       
+                      <small>
+                        Security
+                      </small>
+                    </p>
+                  </div>
+                  <div
+                    className="insights-info"
+                  >
+                    <p>
+                      <span>
+                        74
+                      </span>
+                       
+                      <small>
+                        Mobility
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Memo(DistrictInfo)>
+        </div>
+      </div>
+    </Animate>
+  </DistrictSelect>
+</Provider>
+`;
+
+exports[`District selection Open 3`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DistrictSelect
+    active={false}
+    click={[MockFunction]}
+  >
+    <Animate
+      animation="fade"
+      className="district-selection"
+      enter={false}
+      onAnimationEnd={null}
+      options={
+        Object {
+          "duration": 500,
+        }
+      }
+      unMountOnExit={true}
+    />
+  </DistrictSelect>
+</Provider>
+`;

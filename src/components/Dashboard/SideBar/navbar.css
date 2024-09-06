@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------- Navbar and burger menu ------------------ */
+nav {
+  width: 100%;
+  height: 5em;
+  /* background-color: rgb(37, 39, 53); */
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  /* margin-top: 16px; */
+  margin-left: 78rem;
+}
+
+.burger-menu {
+  height: 100%;
+  width: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.burger-bar {
+  margin-left: 10px;
+  width: 5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+.burger-barS20 {
+  margin-left: -11px;
+  width: 5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.burger-barXR {
+  width: 5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.burger-bar12PRO {
+  margin-left: -24px;
+  width: 5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.burger-barSE {
+  margin-left: -49px;
+  width: 5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16%;
+  height: 92vh;
+  background-color: black;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  z-index: -1;
+}
+
+.menuXR {
+  width: 17%;
+  height: auto;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  z-index: -1;
+  margin-left: 75rem;
+}
+
+.menuPRO {
+  width: 17%;
+  height: auto;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  z-index: -1;
+  margin-left: 74rem;
+}
+
+.menuSE {
+  width: 17%;
+  height: auto;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  z-index: -1;
+  margin-left: 74rem;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+/* clicked */
+.burger-barSE.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barSE.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-barSE.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barSE.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+/* unclicked */
+
+/* clicked */
+.burger-barXR.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barXR.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-barXR.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barXR.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+/* unclicked */
+
+/* clicked */
+.burger-bar12PRO.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar12PRO.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar12PRO.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar12PRO.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+/* unclicked */
+
+/* clicked */
+.burger-barS20.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barS20.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-barS20.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+}
+
+.burger-barS20.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+/* unclicked */

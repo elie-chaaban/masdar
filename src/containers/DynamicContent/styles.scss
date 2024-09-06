@@ -1,0 +1,27 @@
+@import '../../assets/styles/globals';
+
+.dynamic-content-container {
+  z-index: 1900;
+  position: fixed;
+  background: #222;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+
+  .header {
+    padding-bottom: 10px;
+    .heat-map-container-wrapper {
+      height: 300px;
+      width: 100%;
+      position: relative;
+
+      h2 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+}

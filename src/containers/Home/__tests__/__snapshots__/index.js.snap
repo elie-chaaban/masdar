@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Home>
+    <div
+      className="App"
+    >
+      <default
+        data-testid="sidebar"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="map"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="dashboard"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="slider"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="actions"
+      >
+        <div />
+      </default>
+      <InsightSlider
+        data-testid="insightSlider"
+      >
+        <SlideIn
+          className="slider-details-container dark-container insight-slider "
+          in={false}
+        >
+          <Animate
+            animation="fadeRight"
+            className="slider-details-container dark-container insight-slider "
+            enter={false}
+            onAnimationEnd={null}
+            options={
+              Object {
+                "duration": 500,
+              }
+            }
+            unMountOnExit={true}
+          />
+        </SlideIn>
+      </InsightSlider>
+      <default
+        data-testid="intersectionDataSlider"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="modal"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="multiWindowModal"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="windowNumberModal"
+      >
+        <div />
+      </default>
+      <default
+        data-testid="dynamicContent"
+      >
+        <div />
+      </default>
+    </div>
+  </Home>
+</Provider>
+`;

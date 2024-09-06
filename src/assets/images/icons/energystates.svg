@@ -1,0 +1,15 @@
+<svg id="energy_states" data-name="energy states" xmlns="http://www.w3.org/2000/svg" width="80" height="75" viewBox="0 0 80 75">
+  <g id="energy">
+    <path id="bar" d="M0,0H80V75H0Z" transform="translate(0)" fill="#3e3e3d" opacity="0"/>
+    <text id="Energy_Facilities" data-name="Energy &amp;
+Facilities" transform="translate(0 37)" fill="#fff" font-size="12" font-family="TitilliumWeb-Regular, Titillium Web"><tspan x="16.966" y="14">Energy &amp;</tspan><tspan x="18.166" y="28">Facilities</tspan></text>
+    <g id="Group_2767" data-name="Group 2767" transform="translate(27 15)">
+      <path id="Path_3234" data-name="Path 3234" d="M988.484,348.386h-3.37v-3.878a.388.388,0,0,0-.388-.388H963.462a.388.388,0,0,0-.388.388v15.156a.389.389,0,0,0,.388.39h21.263a.389.389,0,0,0,.388-.39v-3.629h3.37a.39.39,0,0,0,.39-.39v-6.87A.389.389,0,0,0,988.484,348.386Zm-4.149,10.889H963.852V344.9h20.483v14.379Zm3.76-4.018h-2.982v-6.092H988.1Z" transform="translate(-963.074 -344.119)" fill="#fff"/>
+      <path id="Path_3235" data-name="Path 3235" d="M966.2,346.377a.388.388,0,0,0-.388.388v8.816a.388.388,0,1,0,.777,0v-8.816A.389.389,0,0,0,966.2,346.377Z" transform="translate(-962.054 -343.278)" fill="#fff"/>
+      <path id="Path_3236" data-name="Path 3236" d="M968.847,346.967a.388.388,0,0,0-.388.39V354.2a.388.388,0,1,0,.777,0v-6.839A.389.389,0,0,0,968.847,346.967Z" transform="translate(-961.069 -343.058)" fill="#fff"/>
+      <path id="Path_3237" data-name="Path 3237" d="M971.208,346.377a.389.389,0,0,0-.388.388v8.816a.389.389,0,0,0,.778,0v-8.816A.389.389,0,0,0,971.208,346.377Z" transform="translate(-960.189 -343.278)" fill="#fff"/>
+      <path id="Path_3238" data-name="Path 3238" d="M973.948,346.967a.388.388,0,0,0-.388.39v7.163a.388.388,0,0,0,.777,0v-7.163A.389.389,0,0,0,973.948,346.967Z" transform="translate(-959.169 -343.058)" fill="#fff"/>
+      <path id="Path_3239" data-name="Path 3239" d="M976.4,346.377a.389.389,0,0,0-.388.388v8.816a.389.389,0,0,0,.778,0v-8.816A.389.389,0,0,0,976.4,346.377Z" transform="translate(-958.254 -343.278)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

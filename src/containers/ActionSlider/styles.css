@@ -1,0 +1,14 @@
+.expandable-icon {
+  position: fixed;
+  top: 162px;
+  transform: translateX(-25px);
+}
+
+.close-icon {
+  position: fixed;
+  right: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}

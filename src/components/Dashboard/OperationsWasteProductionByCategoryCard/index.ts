@@ -1,0 +1,1 @@
+export {OperationsWasteProductionByCategoryCard} from './OperationsWasteProductionByCategoryCard';

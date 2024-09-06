@@ -1,0 +1,24 @@
+@import '../../assets/styles/globals';
+
+.dashboard-action-expandable {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80vw;
+  z-index: 100;
+  .action-details-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-left: 0;
+    background-color: rgba(64, 64, 64, 1);
+    z-index: 10001;
+
+    .expandable-icon {
+      position: fixed;
+      top: 162px;
+      transform: translateX(-25px);
+    }
+  }
+}

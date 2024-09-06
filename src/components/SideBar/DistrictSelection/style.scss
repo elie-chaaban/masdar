@@ -1,0 +1,60 @@
+.district-selection {
+  position: absolute;
+  top: 0;
+  left: 4vw;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  width: 400px;
+  height: 100vh;
+  z-index: 10;
+  h5.title {
+    background-color: #303030;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  .district-card-container {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation-name: fadeUpIn;
+    animation-duration: 500ms;
+  }
+  .district-card {
+    color: white;
+    p,
+    h5 {
+      margin: 0;
+    }
+    .active {
+      position: relative;
+      &::before {
+        content: 'Selected';
+        position: absolute;
+        background-color: rgba($color: gray, $alpha: 0.4);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        font-size: 2rem;
+        left: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .insights-info {
+      background-color: rgba($color: #000000, $alpha: 0.8);
+      padding: 3px 10px;
+      span {
+        font-size: 20px;
+      }
+      small {
+        font-size: 13px;
+      }
+    }
+    .desc {
+      background-color: gray;
+      padding: 2px 10px;
+    }
+  }
+}

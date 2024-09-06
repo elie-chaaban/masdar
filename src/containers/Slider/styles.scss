@@ -1,0 +1,159 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/globals';
+
+.slider-details-container {
+  .dashboard-header {
+    .districtContainer {
+      font-family: 'Din', sans-serif;
+      width: 100%;
+      color: white;
+      padding-top: 8px;
+      margin-bottom: 10px;
+      .district-name {
+        font-size: 1.7vw;
+        line-height: 1;
+      }
+
+      .districtInfo {
+        font-size: 0.9vw;
+        padding: 0;
+      }
+    }
+    .vendor-charts-btn {
+      color: white;
+      padding: 0;
+      font-family: $secondary-font;
+      box-shadow: none !important;
+      outline: 0 !important;
+      font-size: 0.9rem;
+      border: 0;
+      display: flex;
+      border-radius: 50px;
+      padding: 5px 10px;
+      background-color: #535353 !important;
+      margin-right: 10px;
+      &.active {
+        background: transparent linear-gradient(93deg, #476cad 0%, #9d5aa0 100%) 0 0 no-repeat padding-box;
+      }
+      &:hover {
+        .arrow {
+          transform: rotate(45deg) scale(1.2);
+          -webkit-transform: rotate(45deg) scale(1.2);
+        }
+      }
+      .arrow {
+        border: solid white;
+        border-width: 0 0 2px 2px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: transform 0.2s;
+      }
+    }
+    .insight-btn {
+      color: white;
+      padding: 0;
+      font-family: $secondary-font;
+      box-shadow: none !important;
+      outline: 0 !important;
+      font-size: 0.9rem;
+      border: 0;
+      display: flex;
+      border-radius: 50px;
+      padding: 5px 10px;
+      background-color: #535353 !important;
+      margin-right: 10px;
+      &.active {
+        background: transparent linear-gradient(93deg, #476cad 0%, #9d5aa0 100%) 0 0 no-repeat padding-box;
+      }
+      &:hover {
+        .arrow {
+          transform: rotate(45deg) scale(1.2);
+          -webkit-transform: rotate(45deg) scale(1.2);
+        }
+      }
+      .arrow {
+        border: solid white;
+        border-width: 0 0 2px 2px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: transform 0.2s;
+      }
+    }
+  }
+
+  .header {
+    padding-bottom: 10px;
+    .heat-map-container-wrapper {
+      height: 300px;
+      width: 100%;
+      position: relative;
+
+      h2 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+
+  .expandable-icon {
+    position: fixed;
+    top: 162px;
+    transform: translateX(-35px);
+  }
+
+  .building-map-container {
+    position: relative;
+
+    .building-map-name {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 10pt;
+      color: #393737;
+      font-size: 1.5vw;
+    }
+  }
+
+  .floor-map-container,
+  .building-map-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .building-map-name-container {
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+    padding-left: 5pt;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+
+    span {
+      padding-left: 5pt;
+    }
+  }
+
+  .building-map-content {
+    height: 240px;
+  }
+
+  .floor-map-content {
+    height: 100%;
+    margin-right: 5pt;
+    z-index: 10000;
+  }
+}
+.loading-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  height: 100%;
+}

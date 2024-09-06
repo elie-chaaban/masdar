@@ -1,0 +1,18 @@
+.form-switch .form-check-input {
+  background-color: #C7CDD1 !important;
+  background-image: url('../../../assets/images/icons/switch_pill_idle.png') !important;
+  border: 0 !important;
+  min-width: 60px !important;
+  min-height: 22px !important;
+  margin-right: 10px !important;
+}
+
+.form-switch .form-check-input:checked {
+  background-image: url('../../../assets/images/icons/switch_pill_active.png') !important;
+}
+
+.form-check-label {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: 'Montserrat-Regular' !important;
+}

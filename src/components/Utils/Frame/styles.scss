@@ -1,0 +1,15 @@
+.nxn-logo-div {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 200px;
+  height: 60px;
+  background-color: #627d98;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nxn-logo-image {
+    width: 80px;
+  }
+}

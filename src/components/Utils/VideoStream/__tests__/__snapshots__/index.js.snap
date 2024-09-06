@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`video Stream 1`] = `
+<div
+  className="player-wrapper"
+>
+  <ReactPlayer
+    config={
+      Object {
+        "dailymotion": Object {
+          "params": Object {
+            "api": 1,
+            "endscreen-enable": false,
+          },
+        },
+        "facebook": Object {
+          "appId": "1309697205772819",
+          "playerId": null,
+          "version": "v3.3",
+        },
+        "file": Object {
+          "attributes": Object {},
+          "dashVersion": "2.9.2",
+          "flvVersion": "1.5.0",
+          "forceAudio": false,
+          "forceDASH": false,
+          "forceFLV": false,
+          "forceHLS": false,
+          "forceVideo": false,
+          "hlsOptions": Object {},
+          "hlsVersion": "0.13.1",
+          "tracks": Array [],
+        },
+        "mixcloud": Object {
+          "options": Object {
+            "hide_cover": 1,
+          },
+        },
+        "soundcloud": Object {
+          "options": Object {
+            "buying": false,
+            "download": false,
+            "liking": false,
+            "sharing": false,
+            "show_comments": false,
+            "show_playcount": false,
+            "visual": true,
+          },
+        },
+        "twitch": Object {
+          "options": Object {},
+          "playerId": null,
+        },
+        "vidyard": Object {
+          "options": Object {},
+        },
+        "vimeo": Object {
+          "playerOptions": Object {
+            "autopause": false,
+            "byline": false,
+            "portrait": false,
+            "title": false,
+          },
+        },
+        "wistia": Object {
+          "options": Object {},
+          "playerId": null,
+        },
+        "youtube": Object {
+          "embedOptions": Object {},
+          "onUnstarted": [Function],
+          "playerVars": Object {
+            "iv_load_policy": 3,
+            "modestbranding": 1,
+            "playsinline": 1,
+            "rel": 0,
+            "showinfo": 0,
+          },
+        },
+      }
+    }
+    controls={true}
+    height="100%"
+    light={false}
+    loop={false}
+    muted={false}
+    onBuffer={[Function]}
+    onBufferEnd={[Function]}
+    onDisablePIP={[Function]}
+    onDuration={[Function]}
+    onEnablePIP={[Function]}
+    onEnded={[Function]}
+    onError={[Function]}
+    onPause={[Function]}
+    onPlay={[Function]}
+    onProgress={[Function]}
+    onReady={[Function]}
+    onSeek={[Function]}
+    onStart={[Function]}
+    pip={true}
+    playbackRate={1}
+    playing={true}
+    playsinline={false}
+    progressInterval={1000}
+    style={Object {}}
+    url="url"
+    volume={null}
+    width="100%"
+    wrapper="div"
+  />
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Input Component 1`] = `
+<div
+  className="mt-2 col-6"
+>
+  <p>
+    user
+  </p>
+  <Field
+    className="form-control active"
+    disabled={false}
+    name="user"
+    placeholder="user"
+    type="text"
+  />
+</div>
+`;

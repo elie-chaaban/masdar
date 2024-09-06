@@ -1,0 +1,67 @@
+export default [
+  {
+    id: 1,
+    district_id: 1,
+    module: 'ENERGY',
+    section: 'ENERGY_DETAILS',
+    portal_url: 'https://emm.nxncloud.io/pdt/smartpanels/viewer/districtview',
+    portal_provider: 'TALISEN',
+    token_required: 'N',
+    uid: 'nxnadmin',
+    pswd: 'NXNdemo_1',
+    url_param: null,
+    building_id: -99,
+    expires_in: null,
+    response: null,
+    issued_date: null
+  },
+  {
+    id: 4,
+    district_id: 1,
+    module: 'MOBILITY',
+    section: 'MOBILITY_ASSETS',
+    portal_url: 'http://82.212.107.181:8090/PenTrackDEMO',
+    portal_provider: 'PENGUININ',
+    token_required: 'N',
+    uid: null,
+    pswd: null,
+    url_param: null,
+    building_id: -99,
+    expires_in: null,
+    response: null,
+    issued_date: null
+  },
+  {
+    id: 8,
+    district_id: 1,
+    module: 'SECURITY',
+    section: 'SECURITY_SURVEILLANCE',
+    portal_url: 'http://nxn.3deye.me/',
+    portal_provider: '3DEYE',
+    token_required: 'Y',
+    uid: 'ci@nxn.ae',
+    pswd: 'ci@nxn.ae',
+    url_param: null,
+    building_id: -99,
+    expires_in: 1800,
+    response:
+      '{"accessToken":"EriFbNLEnofNfuW38nCEt4_zPWidKTWEZWkhCet25_va9kPPv2YDn82-jGqaly3M9DwjUAlRVONPni07NCa-nuuyOvlgM6e5q3wLuyuGJ7P8MQwBWPlqVMPHkztcHlPDGoN13QXzFdOYFT5t0-MW-bcrzMQ_0hp3SEEHJv8Rm9QIx3yEml2bSWF9BEdRNMvicrWQqtGrjzHhthCPmAq8pu18h4A9Jjx5HNo3ZzNOGHTDn-zDaX-mxAtHk_Do0kRGzkl2Xewpr0BKAQFLAAbCfIsQE47foDInP7Ro6P13v6v56Y5HJAPygl3z7pLzS0lblGSvmU6yTTmxv1Kr7VRuOIVyb2INUDK9lsSexVmnwfkOLo6so8TFs2HzloB1-WsXjobuy1wdmfHIWKiJ4aTdAMyvq9M","tokenType":"bearer","expiresIn":1800,"refreshToken":"4713daa489aa4a90af04a5c989e46cc4","clientId":"ExternalApi","userName":"ci@nxn.ae","accessTokenIssued":"Wed, 02 Sep 2020 13:50:55 GMT","accessTokenExpires":"Wed, 02 Sep 2020 14:20:55 GMT","refreshTokenIssued":"Wed, 02 Sep 2020 13:50:55 GMT","refreshTokenExpires":"Wed, 23 Sep 2020 13:50:55 GMT"}',
+    issued_date: '1599054655636'
+  },
+  {
+    id: 12,
+    district_id: 1,
+    module: 'SECURITY',
+    section: 'SECURITY_INCIDENTS',
+    portal_url: 'https://security.nxncloud.io/vs4/situation/SituationDetails.jsp',
+    portal_provider: 'VIDSYS',
+    token_required: 'N',
+    uid: null,
+    pswd: null,
+    url_param: null,
+    building_id: -99,
+    expires_in: null,
+    response: null,
+    issued_date: null
+  }
+];

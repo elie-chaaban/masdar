@@ -1,0 +1,9 @@
+<svg id="Group_2871" data-name="Group 2871" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <rect id="bar" width="50" height="50" fill="#3e3e3d" opacity="0"/>
+  <g id="user_icon" data-name="user icon" transform="translate(17.5 10.625)">
+    <g id="Group_2865" data-name="Group 2865">
+      <path id="Path_3220" data-name="Path 3220" d="M614.027,1083.85a6.134,6.134,0,1,1,6.134-6.135A6.141,6.141,0,0,1,614.027,1083.85Zm0-11.576a5.441,5.441,0,1,0,5.44,5.441A5.448,5.448,0,0,0,614.027,1072.274Z" transform="translate(-606.298 -1071.581)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_3221" data-name="Path 3221" d="M621.995,1094.471H606.936a.346.346,0,0,1-.347-.346v-5.2a7.876,7.876,0,1,1,15.753,0v5.2A.346.346,0,0,1,621.995,1094.471Zm-14.712-.692h14.366v-4.856a7.183,7.183,0,1,0-14.366,0Z" transform="translate(-606.589 -1069.471)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
